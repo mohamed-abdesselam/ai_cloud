@@ -10,6 +10,7 @@ import { useLayerStore } from "@/lib/layer-store"
 import imageAnimation from "@/public/animations/image-upload.json"
 import { toast } from "sonner"
 
+
 export default function UploadImage() {
   const setTags = useImageStore((state) => state.setTags)
   const setGenerating = useImageStore((state) => state.setGenerating)

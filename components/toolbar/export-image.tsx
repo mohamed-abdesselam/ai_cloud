@@ -38,7 +38,7 @@ export default function ExportAsset({ resource }: { resource: string }) {
           throw new Error("Failed to fetch image")
         }
 
-        // Check if running in the browser`
+        // Check if running in the browser
         if (typeof window !== "undefined") {
           const imageBlob = await imageResponse.blob()
 

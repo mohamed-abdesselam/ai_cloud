@@ -7,8 +7,13 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { Label } from "../ui/label"
 import { ImageIcon, VideoIcon } from "lucide-react"
 import { useState } from "react"
-import UploadImage from "./upload-image"
+// import UploadImage from "./upload-image"
 import UploadVideo from "./upload-video"
+import dynamic from "next/dynamic"
+
+const UploadImage = dynamic(() => import("@/components/upload/upload-image"), {
+  ssr: false,
+})
 
 export default function UploadForm() {
   const activeLayer = useLayerStore((state) => state.activeLayer)
@@ -39,9 +44,8 @@ export default function UploadForm() {
             <CardContent className="flex items-center  space-x-2 p-0">
               <RadioGroupItem value="image" id="image-mode" hidden />
               <Label
-                className={`${
-                  selectedType === "image" ? "text-primary" : null
-                }`}
+                className={`${selectedType === "image" ? "text-primary" : null
+                  }`}
                 htmlFor="image-mode"
               >
                 Image Mode
@@ -62,9 +66,8 @@ export default function UploadForm() {
             <CardContent className="flex items-center  space-x-2 p-0">
               <RadioGroupItem value="video" id="video-mode" hidden />
               <Label
-                className={`${
-                  selectedType === "video" ? "text-primary" : null
-                }`}
+                className={`${selectedType === "video" ? "text-primary" : null
+                  }`}
                 htmlFor="video-mode"
               >
                 Video Mode
