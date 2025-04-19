@@ -26,7 +26,7 @@ export default function RootLayout({
         )}
       >
         <Toaster richColors={true} />
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
 
           {/* <ClerkProvider appearance={{ baseTheme: dark }}> */}
           {children}

@@ -41,22 +41,22 @@ const HomePage = () => {
                             <span className="h-full w-full blur-md absolute bottom-0 inset-x-0 bg-gradient-to-tr from-primary/40"></span>
                             <span className="z-10 py-0.5 text-sm text-neutral-100 flex items-center justify-center gap-1.5">
                                 <Image src="/icons/sparkles-dark.svg" alt="✨" width={24} height={24} className="w-4 h-4" />
-                                Introducing Astra AI
+                                Introducing Neon AI
                                 <ChevronRight className="w-4 h-4" />
                             </span>
                         </Link>
 
                         <div className="flex flex-col items-center mt-8 max-w-3xl w-11/12 md:w-full">
                             <h1 className="text-4xl md:text-6xl lg:textxl md:!leading-snug font-semibold text-center bg-clip-text bg-gradient-to-b dark:from-gray-50 dark:to-gray-50 from-gray-800 to-gray-700 text-transparent">
-                                Build your next idea and ship your dream site
+                                Powerful AI Tools to Edit Your Media
                             </h1>
                             <p className="text-base md:text-lg text-foreground/80 mt-6 text-center">
-                                Zero code, maximum speed. Make professional sites easy, fast and fun while delivering best-in-class SEO, performance.
+                                Enhance images and videos using generative fill, smart cropping, background removal, and more — all from one clean, fast interface.
                             </p>
                             <div className="hidden md:flex relative items-center justify-center mt-8 md:mt-12 w-full">
                                 <Link href="/editor" className="flex items-center justify-center w-max rounded-full border-t border-foreground/30 bg-white/20 backdrop-blur-lg px-2 py-1 md:py-2 gap-2 md:gap-8 shadow-3xl shadow-background/40 cursor-pointer select-none">
                                     <p className="text-foreground text-sm text-center md:text-base font-medium pl-4 pr-4 lg:pr-0">
-                                        ✨ {"  "} Start building your dream website now!
+                                        ✨ Try AI-powered image and video editing now
                                     </p>
                                     <Button size="sm" className="rounded-full hidden lg:flex border border-foreground/20">
                                         Get Started
@@ -89,12 +89,12 @@ const HomePage = () => {
             <Wrapper className="flex flex-col items-center justify-center py-12 relative">
                 <Container>
                     <div className="max-w-md mx-auto text-start md:text-center">
-                        <SectionBadge title="The Process" />
+                        <SectionBadge title="The Tools" />
                         <h2 className="text-3xl lg:text-4xl font-semibold mt-6">
-                            Three steps to build your dream website
+                            Smart editing features at your fingertips
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Turn your vision into reality in just 3 simple steps
+                            Use Generative Fill, AI Recolor, Content Aware edits, background replacement, smart crop, and more — all with just a few clicks.
                         </p>
                     </div>
                 </Container>
@@ -130,7 +130,7 @@ const HomePage = () => {
                             Discover our powerful features
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Astra offers a range of features to help you build a stunning website in no time
+                            Neon gives you powerful AI tools like generative fill, smart background removal, content-aware editing, and auto-cropping to transform images and videos effortlessly.
                         </p>
                     </div>
                 </Container>
@@ -170,7 +170,7 @@ const HomePage = () => {
                             Unlock the right plan for your business
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            Choose the best plan for your business and start building your dream website today
+                            Choose the plan that fits your creative workflow and start editing images and videos with AI-powered precision today.
                         </p>
                     </div>
                 </Container>
@@ -229,7 +229,7 @@ const HomePage = () => {
                             What people are saying
                         </h2>
                         <p className="text-muted-foreground mt-6">
-                            See how Astra empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
+                            See how Neon empowers businesses of all sizes. Here&apos;s what real people are saying on Twitter
                         </p>
                     </div>
                 </Container>
@@ -296,7 +296,7 @@ const HomePage = () => {
                                 From Idea to Launch <br /> Faster Than Ever
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-md mx-auto">
-                                Build stunning websites with Astra&apos;s intuitive drag-and-drop builder and powerful AI assistant
+                                Enhance your images and videos with advanced AI tools like Generative Fill, AI Recolor, Content Aware, and more.
                             </p>
                             <Button variant="white" className="mt-6" asChild>
                                 <Link href="/sign-in">
